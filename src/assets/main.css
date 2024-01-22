@@ -1,0 +1,39 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+TAS+Beginner:wght@400;500&family=Montserrat:wght@100..900&display=swap');
+*{
+  font-family: "Montserrat", sans-serif;
+}
+#app {
+  background-color: rgb(243, 246, 249);
+  margin: 0 ;
+  padding: 0;
+
+  font-weight: normal;
+  height: 100vh;
+}
+
+
+a,
+.green {
+  text-decoration: none;
+  color: gray;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(218, 68%, 89%, 0.2);
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+ 
+
+  #app {
+    display: grid;
+    grid-template-columns:0fr 1fr ;
+    padding:0;
+  }
+}
